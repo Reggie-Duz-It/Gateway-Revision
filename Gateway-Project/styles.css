@@ -1,0 +1,380 @@
+
+body {
+    background-color: darkblue;
+    height: 1000px;
+    width: 100%;
+}
+
+nav {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: absolute;
+    left: 218px;
+    z-index: 9;
+}
+
+nav a {
+    float: left;
+    display: block;
+    padding: 20px;
+    background-color:black;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    width: 264px;
+    font-family: 'Old English Text MT', sans-serif, Arial;
+    font-size: 24px;
+}
+
+nav a:hover {
+    color: darkblue;
+}
+
+
+#slideshow {
+    position: absolute;
+    left: 178px;
+    top: 65px;
+    width: 912px;
+    height: 330px;
+    z-index: 0;
+    background-color: white;
+}
+
+article {
+    position: absolute;
+    padding: 100px;
+    top: 400px;
+    left: 218px;
+    height: 400px;
+    width: 712px;
+    background-color: black;
+}
+
+#welcome {
+    position: absolute;
+    top: 30px;
+}
+
+article h1 {
+    position: absolute;
+    top: 75px;
+    left: 350px;
+    color: white;
+    font-family: 'Old English Text MT', sans-serif, Arial;
+}
+
+article p {
+    position: absolute;
+    color: white;
+    left:5px;
+
+}
+
+#nextbutton {
+    position: absolute;
+    left: 350px;
+}
+
+#nextfig {
+    position: absolute;
+    left: 390px;
+    top: 570px;
+    color: white;
+    z-index: 99;
+}
+
+#nextbutton:hover {
+    transform: scale(1.3);
+
+}
+
+article > #eventsh1 {
+    position: absolute;
+    top: 5px;
+    left: 250px;
+    color: white;
+    font-family: 'Old English Text MT', sans-serif, Arial;
+}
+
+article > #eventsh2 {
+    position: absolute;
+    top: 50px;
+    left: 200px;
+    color: white;  
+}
+
+article h4 {
+    color: white;
+}
+
+#lowriding {
+    position: absolute;
+    left: -580px;
+    top: 50px;
+}
+
+#lowridingfig {
+    position: absolute;
+    left: -520px;
+    top: 260px;
+    color: white;
+    z-index: 99;
+}
+
+#event1 {
+    position: absolute;
+    height: 350px;
+    left: 600px;
+    top: 88px;
+}
+
+#event1 > h3 {
+    color: white;
+}
+
+#event2 > h3 {
+    color: white;
+}
+
+#event1 p {
+    font-size: 13px;
+}
+
+#softball {
+    position: absolute;
+    top: 85px;
+    left: 305px;
+}
+
+#softballfig {
+    position: absolute;
+    top: 285px;
+    left: 405px;
+    color: white;
+    width: 100%;
+    z-index: 99;
+}
+
+#event2 {
+    position: absolute;
+    height: 300px;
+    left: 300px;
+    top: 300px;
+}
+
+#event2 p {
+    font-size: 13px;
+}
+
+article > #contacth1{
+    position: absolute;
+    top: 10px;
+}
+
+
+#contactform {
+    position: absolute;
+    border: 2px solid white;
+    height: 440px;
+    width: 850px;
+    top: 150px;
+    left: 30px;
+    background-color: navy;
+}
+
+label {
+    position: absolute;
+    left: 180px;
+    color: white;
+}
+
+label[for="fname"] {
+    position: absolute;
+    top: 20px;
+}
+
+label[for="lname"] {
+    position: absolute;
+    top: 60px;
+}
+
+label[for="phone"] {
+    position: absolute;
+    top: 90px;
+}
+
+label[for="email"] {
+    position: absolute;
+    top: 130px;
+}
+
+input {
+    position: absolute;
+    left: 300px; 
+}
+
+textarea {
+    position: absolute;
+    top: 200px;
+    left: 180px;
+}
+
+label[for="comments"] {
+    position: absolute;
+    top: 175px;
+}
+
+input[type="submit"] {
+    position: absolute;
+    top: 400px;
+    left: 600px;
+}
+
+#sidebar1 {
+    position: absolute;
+    width: 210px;
+    height: 1200px;
+    background-color: darkblue;
+}
+
+#sidebar2 {
+    position: absolute;
+    left: 1130px;
+    width: 210px;
+    height: 1200px;
+    background-color: darkblue;
+    
+}
+
+#bottom {
+    position: absolute;
+    width: 912px;
+    height: 208px;
+    top: 1000px;
+    left: 218px;
+    background-color: rgb(20, 20, 53);
+}
+
+.fadein img {
+    -webkit-animation-name: fade;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-fucntion: ease-in-out;
+    -webkit-animation-duration: 12s;
+    animation-name: fade;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-duration: 12s;
+}
+
+
+@-webkit-keyframes fade {
+    0% {opacity: 1;}
+    17% {opacity: 1;}
+    25% {opacity: 0;}
+    92% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+@keyframes fade {
+    0% {opacity: 1;}
+    17% {opacity: 1;}
+    25% {opacity: 0;}
+    92% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+
+#fd1 {
+    animation-delay: 9s;
+    width: 100%;
+  
+}
+
+
+
+
+#fd2 {
+    animation-delay: 6s;
+    position: absolute;
+    top: -70px;
+    width: 100%
+   
+}
+
+
+
+#fd3 {
+    animation-delay: 3s;
+    position: absolute;
+    top: -70px;
+    width: 100%;   
+}
+
+#bannerbar {
+    position: absolute;
+    top: -31px;
+    width: 1292px;
+    padding: 20px;
+    background-color: darkblue;
+    z-index: 10;
+}
+
+#bottom {
+    color: white;
+    font-size: 20px;
+}
+
+#reserved {
+    position: absolute;
+    top: 100px;
+    left: 160px;
+}
+
+#contactfooter {
+    position: absolute;
+    top: 20px;
+    left: 550px;
+}
+
+#instagram {
+    position: absolute;
+    top: 90px;
+    left: 520px;
+}
+
+#instafig {
+    position: absolute;
+    top: 175px;
+    left: 520px;
+}
+
+#facebook {
+    position: absolute;
+    top: 90px;
+    left: 620px;
+}
+
+#facebookfig {
+    position: absolute;
+    top: 175px;
+    left: 620px;
+}
+
+
+#twitter {
+    position: absolute;
+    top: 75px;
+    left: 710px;
+}
+
+#twitterfig {
+    position: absolute;
+    top: 175px;
+    left: 735px;
+}
+
+#bottom a img:hover {
+    transform: scale(1.3);
+}
